@@ -326,14 +326,9 @@ El tablero presenta los principales indicadores de gestión y soporte TI, permit
  <!-- smooth scrolling -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-		*/								
+		$(".nav-right span.menu").click(function(){
+        $(".nav-right ul").toggleClass("active");
+    });							
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
