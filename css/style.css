@@ -1516,26 +1516,23 @@ padding:0;
   transform: translateY(-3px);
 }
 
-/* Mejorar botones del menú en móvil */
-.nav-right ul li a {
-    padding: 8px 12px !important; /* menos padding horizontal para que no se vean enormes */
-    font-size: 14px !important;   /* tamaño legible */
-    display: block;
-    text-align: center;
-    margin: 5px 0; /* separación entre botones */
-    border-radius: 5px; /* bordes redondeados opcionales */
-}
-
-.nav-right span.menu {
+@media (max-width: 800px) {
+  .nav-right span.menu {
     display: block;
     cursor: pointer;
+  }
+  .nav-right ul.nav1 {
+    display: none; /* Oculta el menú por defecto */
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 70px; /* ajusta según tu banner */
+    right: 0;
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+  .nav-right ul.nav1 li a {
+    padding: 10px 20px;
+  }
 }
-
-.nav-right ul {
-    display: none; /* oculto por defecto */
-}
-
-.nav-right ul.active {
-    display: block; /* se muestra al hacer clic en el menú */
-}
-
