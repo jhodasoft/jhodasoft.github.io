@@ -893,7 +893,7 @@ color:#76b852;
 	  width: 70%;
 	}
 	.banner-image img {
-	  width: 65%;
+	   width: 80%; /*cambiado por jhoda era 65%*/
 	}
 	.banner-grids {
 	  margin-top: 35px;
@@ -903,13 +903,13 @@ color:#76b852;
 	}
 	.nav-right ul li a {
 	  font-size: 14px;
-	  padding: 8px 47px;
-	}
-	.nav-right ul li:nth-child(2) a ,.nav-right ul li:nth-child(4) a {
-	  padding: 8px 37px;
-	}
-	.nav-right ul li:nth-child(1) a,.nav-right ul li:nth-child(5) a {
 	  padding: 8px 27px;
+	}
+	.nav-right ul li:nth-child(1) a ,.nav-right ul li:nth-child(4) a {
+	  padding: 8px 15px;
+	}
+	.nav-right ul li:nth-child(2) a,.nav-right ul li:nth-child(3) a {
+	  padding: 8px 17px;
 	}
 	.nav-right ul li {
 	  line-height: 3.5em;
@@ -1516,23 +1516,3 @@ padding:0;
   transform: translateY(-3px);
 }
 
-@media (max-width: 800px) {
-  .nav-right span.menu {
-    display: block;
-    cursor: pointer;
-  }
-  .nav-right ul.nav1 {
-    display: none; /* Oculta el menú por defecto */
-    flex-direction: column;
-    background: #fff;
-    position: absolute;
-    top: 70px; /* ajusta según tu banner */
-    right: 0;
-    width: 200px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    z-index: 1000;
-  }
-  .nav-right ul.nav1 li a {
-    padding: 10px 20px;
-  }
-}
