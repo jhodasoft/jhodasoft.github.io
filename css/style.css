@@ -1149,10 +1149,10 @@ color:#76b852;
 	  font-size: 15px;
 	}
 	.da-thumbs li a div h5 {
-	  font-size: 19px;
+	  font-size: 0px;
 	}
 	.da-thumbs li a div h5 {
-	  margin: 1.8em 0 0 0;
+	  margin: 1em 0 0 0;
 	}
 	.wel-grid {
 	  float: left;
@@ -1180,25 +1180,34 @@ color:#76b852;
 	  height: 123px;
 	}
 	.navigation {
-	  padding: 0 10px;
+	  float: left;
+	  width: 30%;
+	}
+	.navigation {
+	  padding: 0 0px;
 	}
 	.nav-left a {
 	  font-size: 4em;
 	}
 	.nav-right ul {
-	  margin: 10px 0 0 0;
+	  margin: 0px 0 0 0;
 	}
+	.banner-image {
+	  float: left;
+	  width: 80%;
+	}
+	
 	.banner-image img {
-	  width: 81%;
+	  width: 100%;
 	}
 	.nav-right ul li a {
-	  padding: 8px 11px;
+	  padding: 0px 0px;
 	}
 	.nav-right ul li:nth-child(1) a ,.nav-right ul li:nth-child(4) a {
-	  padding: 8px 2px;
+	  padding: 8px 0px;
 	}
 	.nav-right ul li:nth-child(2) a,.nav-right ul li:nth-child(3) a {
-	  padding: 8px 2px;
+	  padding: 8px 0px;
 	}
 	
 }
