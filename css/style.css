@@ -1212,7 +1212,7 @@ color:#76b852;
 	
 }
 /*agregado por jhodasoft*/
-@media (max-width: 480px){
+@media (max-width: 412px){
 	.about-info h3, .skill-info h2, .gallery h3, .ser-head h3, .news h3, .get-info h3 {
 	  font-size: 26px;
 	}
