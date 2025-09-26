@@ -1211,6 +1211,95 @@ color:#76b852;
 	}
 	
 }
+/*agregado por jhodasoft*/
+@media (max-width: 480px){
+	.about-info h3, .skill-info h2, .gallery h3, .ser-head h3, .news h3, .get-info h3 {
+	  font-size: 26px;
+	}
+	.about-info h4 {
+	  margin: 10px 0 11px 0;
+	  }
+	.about-grid {
+	  float: left;
+	  width: 100%;
+	  padding: 0;
+	}
+	.about-grids, ul#da-thumbs, .wel-grids, .contact-info {
+	  margin-top: 22px;
+	}
+	.about-grid:nth-child(2) {
+	  margin-top: 25px;
+	}
+	.about-grid h4 {
+	  font-size: 19px;
+	}
+	.skills-grid p {
+	  font-size: 15px;
+	}
+	.da-thumbs li a div h5 {
+	  font-size: 0px;
+	}
+	.da-thumbs li a div h5 {
+	  margin: 1em 0 0 0;
+	}
+	.wel-grid {
+	  float: left;
+	  width: 50%;
+	}
+	.wel-grid:nth-child(4), .wel-grid:nth-child(5), .wel-grid:nth-child(6),.wel-grid:nth-child(3) {
+	  margin-top: 35px;
+	}
+	.na-m {
+	  width: 83%;
+	}
+	.get-info p {
+	  width: 100%;
+	}
+	.contact-grid p {
+	  font-size: 12px;
+	}
+	.contact-info input[type="text"] {
+	  width: 100%;
+	}
+	.contact-info input[type="text"], .contact-info textarea {
+	  margin: 0px 0px 16px 0;
+	}
+	.contact-info textarea {
+	  height: 123px;
+	}
+	.navigation {
+	  float: left;
+	  width: 30%;
+	}
+	.navigation {
+	  padding: 0 0px;
+	}
+	.nav-left a {
+	  font-size: 4em;
+	}
+	.nav-right ul {
+	  margin: 30px 0 0 0;
+	}
+	.banner-image {
+	  float: right;
+	  width: 60%;
+	}
+	
+	.banner-image img {
+	  width: 100%;
+	}
+	.nav-right ul li a {
+	  padding: 0px 0px;
+	}
+	.nav-right ul li:nth-child(1) a ,.nav-right ul li:nth-child(4) a {
+	  padding: 8px 0px;
+	}
+	.nav-right ul li:nth-child(2) a,.nav-right ul li:nth-child(3) a {
+	  padding: 8px 0px;
+	}
+	
+}
+/*Fin agregado por jhodasoft*/
 @media (max-width: 320px){
 .navigation {
 padding:0;
@@ -1221,12 +1310,12 @@ padding:0;
 	width:98%;
 	}
 	span.menu {
-	   display: block;
-	  cursor: pointer;
-	  position: relative;
-	  text-align: right;
-  width: 100%;
-  margin: 0px 0 0px 0px;
+	   	display: block;
+		cursor: pointer;
+		position: relative;
+		text-align: right;
+		width: 100%;
+		margin: 0px 0 0px 0px;
 	}
 	ul.nav1{
 		display:none;
@@ -1273,14 +1362,22 @@ padding:0;
 	  width: 29.2%;
 	  float:left;
 	}
+
+	/* .banner-image {
+	  float: right;
+	  width: 80%;
+	} */
+
+	.banner-image {
+	  	margin-top: 30px;
+		padding:0;
+	  	width: 100%;
+	}
+
 	.banner-image img {
 	  width: 55%;
 	}
-	.banner-image {
-	  margin-top: 30px;
-	padding:0;
-	  width: 100%;
-	}
+	
 	.about, .our-skills, div#portfolio, .services, .news, .get-in-touch, .contact-us {
 	  padding: 35px 0;
 	}
